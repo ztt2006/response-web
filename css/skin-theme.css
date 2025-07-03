@@ -1,0 +1,81 @@
+/* 主题皮肤定制 */
+
+/* 默认主题 */
+/* 绿色主题 */
+:root,
+html[data-theme="turquoise"] {
+  /* 主色调 */
+  --primary--color: #1ec28b; /* 主体色 */
+  --light-gray-color: #f4f4f6; /* 浅灰色 */
+  --white-color: #fff; /* 白色 */
+
+  /* 字体色 */
+  --font-black-color: #000; /* 黑色 */
+  --font-dark-grey-color: #666; /* 深灰色 */
+  --font-red-color: #ff0000; /* 红色 */
+  --font-white-color: #fff; /* 白色 */
+
+  /* 边框色 */
+  --border-dark-grey-color: rgba(28, 28, 27, 0.22); /* 深灰色边框 */
+
+  /* 辅助色 */
+  --sub-dark-red-color: #ff6347; /* 深红色 */
+  --sub-deep-orange-color: #ff8900; /* 深橘红色 */
+
+  /* 网站底部色 */
+  --footer-bg-color1: #2e2e2e; /* 网站底部背景色 */
+  --footer-bg-color2: #212121; /* 网站底部背景色 */
+  --footer-font-color: #d6d6d6; /* 网站底部背景色 */
+}
+
+/* 属性选择器 */
+/* 定义了黄色主题相关的所有样式 */
+html[data-theme="yellow"] {
+  /* 主色调 */
+  --primary--color: #ffd336; /* 主体色 */
+  --light-gray-color: #f4f4f6; /* 浅灰色 */
+  --white-color: #fff; /* 白色 */
+
+  /* 字体色 */
+  --font-black-color: #000; /* 黑色 */
+  --font-dark-grey-color: #666; /* 深灰色 */
+  --font-red-color: #ff0000; /* 红色 */
+  --font-white-color: #fff; /* 白色 */
+
+  /* 边框色 */
+  --border-dark-grey-color: rgba(28, 28, 27, 0.22); /* 深灰色边框 */
+
+  /* 辅助色 */
+  --sub-dark-red-color: #ff6347; /* 深红色 */
+  --sub-deep-orange-color: #ff8900; /* 深橘红色 */
+
+  /* 网站底部色 */
+  --footer-bg-color1: #2e2e2e; /* 网站底部背景色 */
+  --footer-bg-color2: #212121; /* 网站底部背景色 */
+  --footer-font-color: #d6d6d6; /* 网站底部背景色 */
+}
+
+html[data-theme="red"] {
+  /* 主色调 */
+  --primary--color: #ff383f; /* 主体色 */
+  --light-gray-color: #f4f4f6; /* 浅灰色 */
+  --white-color: #fff; /* 白色 */
+
+  /* 字体色 */
+  --font-black-color: #000; /* 黑色 */
+  --font-dark-grey-color: #666; /* 深灰色 */
+  --font-red-color: #ff0000; /* 红色 */
+  --font-white-color: #fff; /* 白色 */
+
+  /* 边框色 */
+  --border-dark-grey-color: rgba(28, 28, 27, 0.22); /* 深灰色边框 */
+
+  /* 辅助色 */
+  --sub-dark-red-color: #ff6347; /* 深红色 */
+  --sub-deep-orange-color: #ff8900; /* 深橘红色 */
+
+  /* 网站底部色 */
+  --footer-bg-color1: #2e2e2e; /* 网站底部背景色 */
+  --footer-bg-color2: #212121; /* 网站底部背景色 */
+  --footer-font-color: #d6d6d6; /* 网站底部背景色 */
+}
